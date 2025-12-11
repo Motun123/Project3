@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(133, 77, 5)
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 20px;
+    background-color: blue;
+    padding-inline: 70px;
+}
+
+img{
+    max-inline-size: 100%;
+    display: block;
+}
+
+
+.hero-container img{
+max-inline-size: 20%;
+}
+
+.flex-one{
+    display: flex;
+    justify-content: space-between;
+    max-inline-size: 30%;
+    gap: 10px;
+}
+
+.shirt-flex{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    max-inline-size: 60%;
+    background-color: yellow;
+}
+
+
+.item-box{
+    max-inline-size: 60%;
+    background-color: aqua;
+    flex-shrink: 0;
+}
