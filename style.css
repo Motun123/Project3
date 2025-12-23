@@ -1,19 +1,23 @@
 body{
-    background-color: rgb(133, 77, 5)
+    background-color: rgb(56, 25, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    gap: 5px;
 }
 
 .hero-container{
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: blue;
+    background-color: rgb(92, 47, 13) ;
     padding-inline: 70px;
+    border-radius: 10px;
+    margin-block-end: 5px;
 }
 
 img{
@@ -30,7 +34,13 @@ max-inline-size: 20%;
     display: flex;
     justify-content: space-between;
     max-inline-size: 30%;
-    gap: 10px;
+    gap: 5px;
+    margin-block-end: 5px;
+    
+}
+
+.flex-one img{
+    border-radius:20px;
 }
 
 .shirt-flex{
@@ -38,12 +48,42 @@ max-inline-size: 20%;
     justify-content: start;
     gap: 10px;
     max-inline-size: 60%;
-    background-color: yellow;
+   background-color: rgb(92, 47, 13) ;
+    border-radius: 10px;
 }
 
 
 .item-box{
     max-inline-size: 60%;
-    background-color: aqua;
+    background-color: rgb(92, 47, 13) ;
     flex-shrink: 0;
+    border-radius: 10px;
+    padding: 50;
+}
+
+.last-section p{
+    color: rgb(226, 204, 174)
+
+}
+
+h1{
+    color:rgb(226, 204, 174) ;
+    font-weight: lighter
+    ;
+}
+
+span{
+    color: rgb(185, 117, 29);
+    font-weight: bold;
+}
+
+.tone{
+    padding-inline-start: 70px;
+}
+
+.last-section img{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
